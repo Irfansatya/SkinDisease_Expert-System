@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('img/backgroud.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3e3838;
+  padding: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.navbar img {
+  margin-right: 10px;
+  height: 50px;
+}
+
+.navbar a {
+  color: black;
+  background-color: rgb(154, 154, 154);
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 10px 15px; /* Atur padding untuk memberikan jarak di dalam tombol */
+  border-radius: 4px; /* Tambahkan border-radius untuk membuat sudut-sudut melengkung */
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto; /* Memindahkan .container ke tengah */
+  padding: 40px;
+  background-color: rgb(154, 154, 154);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  /* Properti tambahan */
+  position: relative;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3e3838;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #8b008b;
+}

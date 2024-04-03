@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('ngasal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+
+.container .content {
+  text-align: center;
+}
+
+.container .content h3 {
+  font-size: 30px;
+  color: #333;
+}
+
+.container .content h1 {
+  font-size: 50px;
+  color: #333;
+}
+
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+  background: transparent;
+  background-image: url('img/backgroud.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.form-container form {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background: rgb(154, 154, 154);
+  text-align: center;
+  width: 500px;
+}
+
+.form-container form h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-container form input,
+.form-container form select {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 17px;
+  margin: 8px 0;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.form-container form select option {
+  background: #fff;
+}
+
+.form-container form .form-btn {
+  background: #3e3838;
+  color: black;
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+  background: #8b008b;
+  color: #000000;
+}
+
+.form-container form p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.form-container form p a {
+  color: black;
+}
+
+.form-container form .error-msg {
+  margin: 10px 0;
+  display: block;
+  background: crimson;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.show-password {
+  position: absolute;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3e3838;
+  padding: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.navbar img {
+  margin-right: 10px;
+  height: 50px;
+}
+
+.navbar a {
+  color: black;
+  background-color: rgb(154, 154, 154);
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 10px 15px; /* Atur padding untuk memberikan jarak di dalam tombol */
+  border-radius: 4px; /* Tambahkan border-radius untuk membuat sudut-sudut melengkung */
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto; /* Memindahkan .container ke tengah */
+  padding: 40px;
+  background-color: rgb(154, 154, 154);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  /* Properti tambahan */
+  position: relative;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
